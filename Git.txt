@@ -1,0 +1,11 @@
+git config --global user.name
+git config --global user.email
+
+git init (intialize)
+git add . (all)
+git add .\FilePath\
+
+git diff // Gives All Diff From Previous Stage to Current Stage
+git rm --cached FileName // remove from tracking but file remain on your system
+git rm -f FileName // remove from tracking + remove from your system
+
