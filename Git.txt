@@ -9,3 +9,24 @@ git diff // Gives All Diff From Previous Stage to Current Stage
 git rm --cached FileName // remove from tracking but file remain on your system
 git rm -f FileName // remove from tracking + remove from your system
 
+git log // Provided details about commit id , author , date , commit message , email
+git show hashCode // Give Detail about that commit
+
+git blame FilePath  // You can blame that whose has written that code
+
+git status // It tells which file is modified in your local in and which files in staging area
+// staging area means that where git has info about the added code or code which is ready to commit 
+
+Head always points to latest commit 
+If commit is done in local but not push in github
+
+if we need to remove the commited code also use
+    git reset --hard HEAD~1   ye code plus commit history top ki remove kr dega only in local
+
+if we need to remove only commit history but the code should remain unchnaged
+    git reset --soft HEAD~1
+
+If commit is done in local and also pushed to github then use
+git revert hashCode
+
+ye sare chnages uske undo krdega for exmaple + let count = 5 toh revert usko - let count = 5 krdega or ek new history bngya
