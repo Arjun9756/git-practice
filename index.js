@@ -9,9 +9,3 @@ function subtract(a,b){
 }
 
 subtract(3,2)
-
-function bug(){
-    console.log("Bug function")
-}
-
-bug()
