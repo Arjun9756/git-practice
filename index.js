@@ -27,4 +27,5 @@ function newoNe(){
     console.log("Random")
     console.log("Random")
     console.log("Random")
+    console.log("Random")
 }
