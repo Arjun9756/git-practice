@@ -29,4 +29,4 @@ if we need to remove only commit history but the code should remain unchnaged
 If commit is done in local and also pushed to github then use
 git revert hashCode
 
-ye sare chnages uske undo krdega for exmaple + let count = 5 toh revert usko - let count = 5 krdega or ek new history bngya
+ye sare chnages uske undo krdega for exmaple + let count = 5 toh revert usko - let count = 5 krdega or ek new history bngya 
