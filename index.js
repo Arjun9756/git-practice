@@ -15,3 +15,7 @@ function bug(){
 }
 
 bug()
+
+function newFeatureAdd(){
+    console.log("new feature added")
+}

@@ -30,3 +30,22 @@ If commit is done in local and also pushed to github then use
 git revert hashCode
 
 ye sare chnages uske undo krdega for exmaple + let count = 5 toh revert usko - let count = 5 krdega or ek new history bngya
+
+Agr github se bhi wo commit history htani h toh 
+Phele apne local system me reset krke usme revet back kro using git reset --hard / --soft HEAD~1
+HEAD~1 means ek phele wale repo me jao
+
+ab iske bad isko forcefully push kro and that's all
+git push -f origin main
+
+Branching is basically help us to make the commits very clear and concise but why ? let consider everyone is psuhing on the same branch
+this will make the commits very messy and buggy which further leads to 2 major problems or merging and conficts as result there will the delay in the development
+of the software beacuse developers will spend more time in merging instead of business logic
+
+
+# Create the branch
+git branch <branch Name>
+
+# switch branch
+git checkout branch Name
+
