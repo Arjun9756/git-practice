@@ -57,3 +57,5 @@ on the head so if we need to revert back on the created branch commit we cannot 
 
 # Rebase means that we are connecting the whole branch at the head and head will point to the new brach and head points to the last node of the merged branch
 issue isme ye h bas ki commit history bhot lambi ho jygi or kuch nhi
+
+git rebase branch name
