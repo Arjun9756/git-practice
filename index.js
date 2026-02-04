@@ -20,3 +20,7 @@ function newFeatureAdd(){
     console.log("new feature added")
     console.log("new feature added 23")
 }
+
+function newoNe(){
+    console.log("Random")
+}
