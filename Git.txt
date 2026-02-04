@@ -51,3 +51,9 @@ git checkout branch Name
 
 # git merge switch back to main first important
 git merge origin/branchName
+
+# Mergeing leads to an issue when one branch is merged with the main one then the all the commits of that branch are combine over one commit and this commit is attach
+on the head so if we need to revert back on the created branch commit we cannot do this because we have lost out the history
+
+# Rebase means that we are connecting the whole branch at the head and head will point to the new brach and head points to the last node of the merged branch
+issue isme ye h bas ki commit history bhot lambi ho jygi or kuch nhi
